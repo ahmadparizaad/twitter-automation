@@ -14,7 +14,7 @@ if (!email) {
 async function run() {
   await mongoose.connect(process.env.MONGO_URI);
 
-  const user = await User.findOne({ email }).lean();
+  const user = await User.findOne({ email: new RegExp(`^${email}$`, 'i') }).lean();
   if (!user) {
     console.error(`No user found with email: ${email}`);
     process.exit(1);

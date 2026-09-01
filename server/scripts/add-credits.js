@@ -17,20 +17,31 @@ if (!email || !amount || amount <= 0) {
 async function run() {
   await mongoose.connect(process.env.MONGO_URI);
 
-  const user = await User.findOne({ email });
+  let user = await User.findOne({ email: new RegExp(`^${email}$`, 'i') });
   if (!user) {
-    console.error(`No user found with email: ${email}`);
-    process.exit(1);
+    console.log(`User not found. Creating a new user record for ${email.toLowerCase()}...`);
+    user = new User({
+      googleId: `pending_${Date.now()}_${email.toLowerCase()}`,
+      displayName: email.split('@')[0],
+      email: email.toLowerCase(),
+      credits: amount,
+      plan: 'credits',
+      trialStartedAt: new Date()
+    });
+    await user.save();
+    console.log(`✓ Created user: ${user.displayName} (${user.email})`);
+    console.log(`  Credits: 0 → ${user.credits}`);
+    console.log(`  Plan: ${user.plan}`);
+  } else {
+    const before = user.credits || 0;
+    user.credits = before + amount;
+    user.plan = 'credits';
+    await user.save();
+
+    console.log(`✓ ${user.displayName || user.email} (${user.email})`);
+    console.log(`  Credits: ${before} → ${user.credits}`);
+    console.log(`  Plan: ${user.plan}`);
   }
-
-  const before = user.credits || 0;
-  user.credits = before + amount;
-  user.plan = 'credits';
-  await user.save();
-
-  console.log(`✓ ${user.displayName} (${user.email})`);
-  console.log(`  Credits: ${before} → ${user.credits}`);
-  console.log(`  Plan: ${user.plan}`);
 
   await mongoose.disconnect();
 }

@@ -65,5 +65,184 @@
     "source": "seed",
     "scheduled_on_x_at": "2026-06-12T06:29:16.756Z",
     "scheduled_for": "2026-06-18T04:50:00.000Z"
+  },
+  {
+    "id": "gen-2026-07-13",
+    "text": "market cap of your engagement isn't your follower count, it's how many threads you're actually in. replies put you in more threads.",
+    "scheduled_at": "2026-07-13T03:56:00.000Z",
+    "posted_at": null,
+    "source": "claude-cli",
+    "scheduled_on_x_at": "2026-07-12T14:30:36.595Z",
+    "scheduled_for": "2026-07-13T03:56:00.000Z"
+  },
+  {
+    "id": "gen-2026-07-14",
+    "text": "shipped the extension, then spent longer on the store listing than the code. chrome web store review is its own product.",
+    "scheduled_at": "2026-07-14T03:48:00.000Z",
+    "posted_at": null,
+    "source": "claude-cli",
+    "scheduled_on_x_at": "2026-07-12T14:31:31.858Z",
+    "scheduled_for": "2026-07-14T03:48:00.000Z"
+  },
+  {
+    "id": "gen-2026-07-15",
+    "text": "the fastest way to kill a good tool: make people configure it before they can feel the benefit. cut setup, let them feel it first.",
+    "scheduled_at": "2026-07-15T04:49:00.000Z",
+    "posted_at": null,
+    "source": "claude-cli",
+    "scheduled_on_x_at": "2026-07-12T14:31:59.876Z",
+    "scheduled_for": "2026-07-15T04:49:00.000Z"
+  },
+  {
+    "id": "gen-2026-07-16",
+    "text": "most people optimize the tweet. almost nobody optimizes the reply. the reply is read by someone who's already paying attention.",
+    "scheduled_at": "2026-07-16T04:23:00.000Z",
+    "posted_at": null,
+    "source": "claude-cli",
+    "scheduled_on_x_at": "2026-07-12T14:32:55.097Z",
+    "scheduled_for": "2026-07-16T04:23:00.000Z"
+  },
+  {
+    "id": "gen-2026-07-17",
+    "text": "pricing lesson: don't charge for the trial before there's a habit. charge once the habit exists.",
+    "scheduled_at": "2026-07-17T05:53:00.000Z",
+    "posted_at": null,
+    "source": "claude-cli",
+    "scheduled_on_x_at": "2026-07-12T14:33:46.525Z",
+    "scheduled_for": "2026-07-17T05:53:00.000Z"
+  },
+  {
+    "id": "gen-2026-07-18",
+    "text": "link in bio if you want to see what i built for this. otherwise: go reply to three posts today before you write one.",
+    "scheduled_at": "2026-07-18T05:40:00.000Z",
+    "posted_at": null,
+    "source": "claude-cli",
+    "scheduled_on_x_at": "2026-07-12T14:34:29.356Z",
+    "scheduled_for": "2026-07-18T05:40:00.000Z"
+  },
+  {
+    "id": "gen-2026-07-19",
+    "text": "8 tones sounds like a lot until you're mid-argument in someone's replies and need 'sincere' instead of 'sarcastic' in the next 10 seconds. that's the actual use case for WittyWing.",
+    "scheduled_at": "2026-07-19T04:40:00.000Z",
+    "posted_at": null,
+    "source": "claude-cli",
+    "scheduled_on_x_at": "2026-07-12T14:35:45.140Z",
+    "scheduled_for": "2026-07-19T04:40:00.000Z"
+  },
+  {
+    "id": "gen-2026-07-20",
+    "text": "the reply box has less competition than the post composer. everyone's optimizing their next post, almost nobody's optimizing the thing they type into someone else's replies at 11pm tired.",
+    "scheduled_at": "2026-07-20T05:59:00.000Z",
+    "posted_at": null,
+    "source": "claude-cli",
+    "scheduled_on_x_at": "2026-07-19T14:33:50.249Z",
+    "scheduled_for": "2026-07-20T05:59:00.000Z"
+  },
+  {
+    "id": "gen-2026-07-21",
+    "text": "you can tell a founder is early because they still write every reply from scratch. by month six they've either quit replying or built a system for it. there's no third option.",
+    "scheduled_at": "2026-07-21T04:57:00.000Z",
+    "posted_at": null,
+    "source": "claude-cli",
+    "scheduled_on_x_at": "2026-07-19T14:34:48.067Z",
+    "scheduled_for": "2026-07-21T04:57:00.000Z"
+  },
+  {
+    "id": "gen-2026-07-22",
+    "text": "spent a weekend on tone presets for an extension nobody asked for yet. shipped anyway. the only way to find out if 8 tones is the right number or 3 is the right number is to let people pick.",
+    "scheduled_at": "2026-07-22T05:47:00.000Z",
+    "posted_at": "2026-07-24T04:49:50.101Z",
+    "source": "claude-cli"
+  },
+  {
+    "id": "gen-2026-07-23",
+    "text": "the extensions that survive are the ones that disappear into a workflow you already have. the ones that die ask you to open a new tab first.",
+    "scheduled_at": "2026-07-23T05:33:00.000Z",
+    "posted_at": "2026-07-27T04:10:17.160Z",
+    "source": "claude-cli"
+  },
+  {
+    "id": "gen-2026-07-24",
+    "text": "free trial math nobody does: 10 replies a day for 3 days is 30 tries to feel a habit. fewer than that and people churn before the thing even clicked.",
+    "scheduled_at": "2026-07-24T03:48:00.000Z",
+    "posted_at": "2026-07-28T04:33:54.719Z",
+    "source": "claude-cli"
+  },
+  {
+    "id": "gen-2026-07-25",
+    "text": "chrome web store rejected my first submission for a permissions issue i didn't know existed. read the manifest v3 docs twice, still missed it. the review queue teaches you things your code editor won't.",
+    "scheduled_at": "2026-07-25T03:30:00.000Z",
+    "posted_at": "2026-07-29T04:03:57.296Z",
+    "source": "claude-cli"
+  },
+  {
+    "id": "gen-2026-07-26",
+    "text": "wittywing's whole bet: the reply box is real estate you're already standing in. no dashboard to open, no tab to switch to, just a tone picker where your cursor already is. link in bio.",
+    "scheduled_at": "2026-07-26T04:00:00.000Z",
+    "posted_at": "2026-08-03T04:11:06.375Z",
+    "source": "claude-cli"
+  },
+  {
+    "id": "gen-2026-08-10",
+    "text": "growth hacking advice for x is mostly about the post. nobody tells you the reply box compounds faster because you're borrowing someone else's audience for free, every time.",
+    "scheduled_at": "2026-08-10T05:32:00.000Z",
+    "posted_at": null,
+    "source": "claude-cli",
+    "scheduled_on_x_at": "2026-08-09T14:30:43.146Z",
+    "scheduled_for": "2026-08-10T05:32:00.000Z"
+  },
+  {
+    "id": "gen-2026-08-11",
+    "text": "wrote replies from scratch for two years before admitting it doesn't scale past a dozen a day. the ones who show up consistently in comments have some system, even a dumb one.",
+    "scheduled_at": "2026-08-11T05:49:00.000Z",
+    "posted_at": null,
+    "source": "claude-cli",
+    "scheduled_on_x_at": "2026-08-09T14:31:16.420Z",
+    "scheduled_for": "2026-08-11T05:49:00.000Z"
+  },
+  {
+    "id": "gen-2026-08-12",
+    "text": "building a chrome extension means your actual competitor isn't another startup, it's chrome's own permission dialog scaring off half your installs before they see the product.",
+    "scheduled_at": "2026-08-12T04:24:00.000Z",
+    "posted_at": null,
+    "source": "claude-cli",
+    "scheduled_on_x_at": "2026-08-09T14:32:00.223Z",
+    "scheduled_for": "2026-08-12T04:24:00.000Z"
+  },
+  {
+    "id": "gen-2026-08-13",
+    "text": "the annoying part of shipping solo: the thing that takes the longest is never the feature, it's the fifty small decisions around it nobody warns you about.",
+    "scheduled_at": "2026-08-13T04:36:00.000Z",
+    "posted_at": null,
+    "source": "claude-cli",
+    "scheduled_on_x_at": "2026-08-09T14:32:38.171Z",
+    "scheduled_for": "2026-08-13T04:36:00.000Z"
+  },
+  {
+    "id": "gen-2026-08-14",
+    "text": "credits that expire are a tax on forgetting. credits that never expire are a bet that people come back when they actually need it, not on your billing cycle.",
+    "scheduled_at": "2026-08-14T04:23:00.000Z",
+    "posted_at": null,
+    "source": "claude-cli",
+    "scheduled_on_x_at": "2026-08-09T14:33:14.672Z",
+    "scheduled_for": "2026-08-14T04:23:00.000Z"
+  },
+  {
+    "id": "gen-2026-08-15",
+    "text": "link in bio if you're curious what a reply-first workflow looks like. the short version: stop opening a blank box and staring at it for a minute per reply.",
+    "scheduled_at": "2026-08-15T05:13:00.000Z",
+    "posted_at": null,
+    "source": "claude-cli",
+    "scheduled_on_x_at": "2026-08-09T14:33:59.622Z",
+    "scheduled_for": "2026-08-15T05:13:00.000Z"
+  },
+  {
+    "id": "gen-2026-08-16",
+    "text": "picked 8 tones instead of 3 because 'friendly' and 'sincere' read completely different mid-thread, and a wrong tone reads worse than no reply at all. https://chromewebstore.google.com/detail/wittywing/nanmlpbedgfahicpngbhalhjokieoipa",
+    "scheduled_at": "2026-08-16T04:17:00.000Z",
+    "posted_at": null,
+    "source": "claude-cli",
+    "scheduled_on_x_at": "2026-08-09T14:34:56.768Z",
+    "scheduled_for": "2026-08-16T04:17:00.000Z"
   }
 ]

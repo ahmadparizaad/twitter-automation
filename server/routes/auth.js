@@ -24,16 +24,39 @@ if (isGoogleOAuthConfigured) {
     callbackURL: GOOGLE_CALLBACK_URL
   }, async (accessToken, refreshToken, profile, done) => {
   try {
-    let user = await User.findOne({ googleId: profile.id });
+    const email = profile.emails && profile.emails[0] && profile.emails[0].value ? profile.emails[0].value.toLowerCase() : null;
+    const queryConditions = [{ googleId: profile.id }];
+    if (email) {
+      queryConditions.push({ email: new RegExp(`^${email}$`, 'i') });
+    }
+
+    let user = await User.findOne({ $or: queryConditions });
     if (!user) {
       user = new User({
         googleId: profile.id,
         displayName: profile.displayName,
-        email: profile.emails && profile.emails[0] && profile.emails[0].value,
+        email: email,
         trialStartedAt: new Date(),
         plan: 'trial',
       });
       await user.save();
+    } else {
+      let needsSave = false;
+      if (user.googleId !== profile.id) {
+        user.googleId = profile.id;
+        needsSave = true;
+      }
+      if (profile.displayName && (!user.displayName || user.displayName === user.email?.split('@')[0])) {
+        user.displayName = profile.displayName;
+        needsSave = true;
+      }
+      if (email && !user.email) {
+        user.email = email;
+        needsSave = true;
+      }
+      if (needsSave) {
+        await user.save();
+      }
     }
     return done(null, user);
   } catch (err) {

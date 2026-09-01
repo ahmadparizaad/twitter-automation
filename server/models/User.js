@@ -14,7 +14,7 @@ const UserSchema = new mongoose.Schema({
   short_bio: { type: String, maxlength: 280, default: '' },
   projects: [ProjectSchema],
   refreshToken: String,
-  refreshTokenExpiresAt: { type: Date, index: { expires: 0 } },
+  refreshTokenExpiresAt: { type: Date },
   preferences: { type: Object, default: {} },
   autoGenerate: { type: Boolean, default: false },
 
